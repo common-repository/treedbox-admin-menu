@@ -1,0 +1,74 @@
+.folded #adminmenu{
+	margin: 0;
+}
+.folded #adminmenu li.menu-top{
+	float: left;
+}
+.folded #adminmenu li.wp-menu-separator {
+	display: none;
+}
+.folded #adminmenuback{
+	background: transparent;
+}
+.folded #adminmenuwrap,
+.folded #adminmenuback,
+.folded #adminmenu{
+	width: 100%;
+}
+.folded #adminmenuback{
+	position: inherit;
+}
+.folded #adminmenu a:hover,
+#collapse-button:hover{
+	background-color: rgba(0,0,0,.3);
+}
+.folded #wpcontent,
+.folded #wpfooter{
+	margin-left:0;
+}
+
+.folded #wpbody{
+	padding-top: 34px;
+}
+.post-type-post .folded #wpbody,
+.post-type-page .folded #wpbody{
+	padding-top: 90px;
+}
+.folded .edit-post-header{
+	top: 66px;
+}
+.edit-post-sidebar{
+	top: 122px;
+}
+
+.folded #adminmenu .opensub .wp-submenu,
+.folded #adminmenu .wp-has-current-submenu .wp-submenu.sub-open,
+.folded #adminmenu .wp-has-current-submenu a.menu-top:focus+.wp-submenu,
+.folded #adminmenu .wp-has-current-submenu.opensub .wp-submenu,
+.folded #adminmenu .wp-submenu.sub-open,
+.folded #adminmenu a.menu-top:focus+.wp-submenu,
+.no-js.folded #adminmenu .wp-has-submenu:hover .wp-submenu{
+	top: 34px;
+	left: 0;
+}
+.folded #collapse-button{
+	width: 36px;
+}
+/*chrome scrollbar*/
+::-webkit-scrollbar{
+  width: 5px;
+  height: 5px;
+}
+/*track size*/
+::-webkit-scrollbar-track-piece{
+  background: transparent;
+}
+/*point of localization*/
+::-webkit-scrollbar-thumb{
+  background: rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+/*corner between bottom bar and side bar*/
+::-webkit-scrollbar-corner{
+  background: rgba(0,0,0,1);
+}
